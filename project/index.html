@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link href="/project/output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="app  ">
+      <section
+        class="header text-neutral-50 h-screen bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url(./public/images/headerbannerBlack.jpg)"
+      >
+        <div class="header-container flex justify-around items-center pt-10">
+          <div class="header-logo">
+            <img class="hlogo w-64" src="./public/icon/logo.png" alt="" />
+          </div>
+          <div class="search">
+            <input
+              class="border-double border-4 rounded-md border-yellow-500 bg-inherit text-center w-60"
+              type="search"
+              placeholder="Найти!"
+            />
+          </div>
+          <nav class="nav">
+            <ul class="font-serif text-2xl">
+              <a class="mr-10 hover:text-yellow-500 duration-300" href="#"
+                >Главная</a
+              >
+              <a class="mr-10 hover:text-yellow-500 duration-300" href="#"
+                >Персонажи</a
+              >
+              <a class="mr-10 hover:text-yellow-500 duration-300" href="#"
+                >Машины</a
+              >
+              <a class="mr-10 hover:text-yellow-500 duration-300" href="#"
+                >Локации</a
+              >
+            </ul>
+          </nav>
+        </div>
+      </section>
+      <section
+        class="main flex flex-col items-center footer h-screen bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url(./public/images/mainback.jpeg)"
+      >
+        <div class="main-container">13412312</div>
+      </section>
+      <section
+        class="footer h-screen bg-cover bg-no-repeat bg-fixed"
+        style="background-image: url(./public/images/footer.webp)"
+      >
+        <div class="footer-container">
+          <div class="footer-box flex items-center justify-center pt-36">
+            <span>
+              <p class="text-5xl text-neutral-50 mr-16">Успей первым!</p>
+            </span>
+            <input
+              class="w-96"
+              type="mail"
+              placeholder="Введите электронную почту"
+            />
+            <button class="ml-16">add</button>
+          </div>
+          <div class="footerbox_container"></div>
+        </div>
+      </section>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
