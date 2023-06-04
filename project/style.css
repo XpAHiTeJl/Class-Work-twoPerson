@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "cyber";
+  src: url(../project/public/fonts/Cyberpunk-Regular.ttf);
+}
+@font-face {
+  font-family: "conthrax";
+  src: url(../project/public/fonts/conthrax-sb.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
