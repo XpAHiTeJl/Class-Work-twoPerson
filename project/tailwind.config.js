@@ -6,8 +6,7 @@ export default {
       cyber: ["cyber"],
       conthrax: ["conthrax"],
     },
-
     extend: {},
+    plugins: [],
   },
-  plugins: [],
 };
